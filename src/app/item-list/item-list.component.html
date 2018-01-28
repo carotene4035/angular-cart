@@ -1,0 +1,11 @@
+<div class='page'>
+  <h2>
+    商品一覧
+  </h2>
+  <div *ngFor='let item of items' class="card item" [class.selected]='item.selected'>
+    <div class="card-body" (click)='selected(item.id)'>
+      <h5 class="card-title">{{item.name}}</h5>
+      <p class="card-text">{{item.price}}円</p>
+    </div>
+  </div>
+</div>

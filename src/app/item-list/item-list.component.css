@@ -1,0 +1,13 @@
+.item {
+  margin: 7px;
+  width: 16rem;
+  display: inline-block;
+}
+
+.selected {
+  background-color: lightcyan;
+}
+
+.page {
+  padding: 20px;
+}

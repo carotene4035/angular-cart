@@ -1,0 +1,20 @@
+<div class='page'>
+  <h2>
+    カートの中
+  </h2>
+  <!--
+    <p>
+    変更前: {{ previousSelectedItemsCnt }}
+    </p>
+
+    <p>
+    変更後: {{ selectedItemsCnt }}
+    </p>
+  -->
+  <ul class="list-group list-group-flush">
+    <li *ngFor='let item of selectedItems' class='list-group-item'>
+      {{item.name }}  {{item.price}}円
+    </li>
+  </ul>
+
+</div>
